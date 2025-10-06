@@ -1,0 +1,41 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# macOS system files
+.DS_Store
+
+# Conda / venv environments
+env/
+.venv/
+venv/
+.welfare-geo/
+
+# Data directory (do not upload datasets)
+data/*
+!data/README.md       # 예: 데이터 설명 파일만 유지
+
+# Exported results or figures
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.csv
+*.xlsx
+
+# VSCode settings
+.vscode/
+
+# Temporary or backup files
+*.bak
+*.tmp
+~$*
+
+# Notebook outputs (optional: uncomment if needed)
+# *.ipynb
